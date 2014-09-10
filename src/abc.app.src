@@ -1,0 +1,12 @@
+{application, abc, [
+    {description, "Erlang Application"},
+    {vsn, "1"},
+    {modules, []},
+    {registered, [abc_sup]},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {mod, {abc_app, []}},
+    {env, []}
+]}.
